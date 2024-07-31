@@ -18,10 +18,10 @@ const bodyParser = require("body-parser");// parse the incoming request bodies i
 const app = express();
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'car_booking'
+    host: 'sql.freedb.tech',
+    user: 'freedb_zong-zheng',
+    password: 'xg#UjRs4*6QJksQ',
+    database: 'freedb_car_booking'
 });
 
 connection.connect((err) => {
